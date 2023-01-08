@@ -1,6 +1,10 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
+/*
+    BEST = O(1)
+    AVG,WORST = O(logN)
+*/
 bool binarysearch(int a[] , int n , int target)
 {
     int s=0,e=n-1;
