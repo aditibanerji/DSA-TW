@@ -1,5 +1,10 @@
 #include<iostream>
 using namespace std;
+/*
+     BEST - O(1)
+     AVG,WORST = O(N)
+   
+*/
 bool linearsearch(int a[] , int n , int target)
 {
     for(int i=0;i<n;i++)
