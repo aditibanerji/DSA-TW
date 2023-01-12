@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+/*
+        BEST,AVG,WORST = O(nlogn)
+*/
 void merge(int a[] , int l , int m , int r)
 {
     int n1=m-l+1;
