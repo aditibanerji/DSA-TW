@@ -2,6 +2,10 @@
 #include<algorithm>
 #include<vector>
 using namespace std;
+
+/*
+            BEST,WORST,AVG= O(n+m)
+*/
 int getmax(int a[] , int n)
 {
       int max = a[0];  
@@ -15,7 +19,7 @@ int getmax(int a[] , int n)
 void countsort(int a[] , int n)
 {
     int m = getmax(a,n);
-    
+
   int count[m+1];
 
   for(int i=0;i<=m;i++)
